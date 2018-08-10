@@ -1,7 +1,7 @@
 import discord
 import datetime, time
 import config
-import crypto
+from crypto import price
 from discord.ext import commands
 
 TOKEN = config.token
