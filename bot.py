@@ -1,7 +1,8 @@
 import discord
 import datetime, time
 import config
-from crypto import price
+import crypto
+import requests
 from discord.ext import commands
 
 TOKEN = config.token
@@ -34,7 +35,13 @@ async def btc():
 @bot.command()
 async def obi():
     await bot.say('Strong hands buds!')
- 
-      
+
+
+@bot.command()
+async def getCrypto():
+	
+	await bot.say(crypto.encryptedText)
+	
+
 
 bot.run(TOKEN)
