@@ -36,7 +36,7 @@ async def obi():
     
 while True:
     if datetime.datetime.now().minute == 0 or datetime.datetime.now().minute == 30 
-       await bot.say('Bitcoin price')
+       await bot.say('TO DO: Bitcoin price --> https://api.cryptowat.ch/markets/kraken/btceur/price')
     time.sleep(30)
  
 
