@@ -1,4 +1,5 @@
 import discord
+import datetime, time
 import config
 from discord.ext import commands
 
@@ -31,5 +32,12 @@ async def btc():
 @bot.command()
 async def obi():
     await bot.say('Strong hands buds!')
+    
+    
+while True:
+    if datetime.datetime.now().minute == 0 || datetime.datetime.now().minute == 30 
+       await bot.say('Bitcoin price')
+    time.sleep(30)
+ 
 
 bot.run(TOKEN)
