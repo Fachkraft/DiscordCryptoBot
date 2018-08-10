@@ -12,7 +12,7 @@ async def on_ready():
     print('Logged in as')
     print(bot.user.name)
     print(bot.user.id)
-    await bot.say("Type !commands")
+    await bot.say("Type /commandos")
 
 
 @bot.command()
