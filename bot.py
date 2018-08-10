@@ -17,7 +17,7 @@ async def on_ready():
 
 @bot.command()
 async def version():
-    await bot.say('0.0.1')
+    await bot.say(config.version)
 
 
 @bot.command()
