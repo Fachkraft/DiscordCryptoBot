@@ -22,6 +22,6 @@ async def version():
 
 @bot.command()
 async def commands
-    await bot.say("!version, !commands")
+    await bot.say('!version, !commands')
 
 bot.run(TOKEN)
