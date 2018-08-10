@@ -17,7 +17,7 @@ async def on_ready():
 
 @bot.command()
 async def version():
-    await bot.say(version)
+    await bot.say(config.DISCORD_CONFIG['version'])
 
 
 @bot.command()
