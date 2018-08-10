@@ -1,6 +1,7 @@
 import discord
 import datetime, time
 import config
+from six.moves.urllib.request import urlopen
 from discord.ext import commands
 
 TOKEN = config.token
@@ -36,6 +37,11 @@ async def obi():
     
 while True:
     if datetime.datetime.now().minute == 0 or datetime.datetime.now().minute == 30 
+    
+link = "https://api.cryptowat.ch/markets/kraken/btceur/price"
+response = urlopen(link)
+content = response.read()
+print(content)
        await bot.say('TO DO: Bitcoin price --> https://api.cryptowat.ch/markets/kraken/btceur/price')
     time.sleep(60)
  
