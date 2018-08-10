@@ -2,7 +2,7 @@ import discord
 import config
 from discord.ext import commands
 
-TOKEN = config.DISCORD_CONFIG['token']
+TOKEN = config.token
 
 description = 'Cryptobot'
 bot = commands.Bot(command_prefix='/', description=description)
