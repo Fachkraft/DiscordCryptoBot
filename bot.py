@@ -28,19 +28,14 @@ async def commandos():
     await bot.say('!commandos, !version, !btc, !obi')
     
 @bot.command()
-async def btc():
-    await bot.say('Not yet implemented!')
-    
-    
-@bot.command()
 async def obi():
     await bot.say('Strong hands buds!')
 
 
 @bot.command()
-async def getCrypto():
+async def btc():
 	
-	await bot.say(crypto.decryptedText)
+	await bot.say('Aktueller Bitcoinpreis bei Kraken: ' + crypto.decryptedText)
 	
 
 
