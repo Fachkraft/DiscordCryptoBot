@@ -26,7 +26,7 @@ async def commandos():
     
 @bot.command()
 async def btc():
-    await bot.say('Not implemented yet!')
+    await bot.say('Not yet implemented!')
     
 @bot.command()
 async def obi():
