@@ -2,7 +2,6 @@ import discord
 import config
 from discord.ext import commands
 
-const version = '0.0.1'
 TOKEN = config.DISCORD_CONFIG['token']
 
 description = 'Cryptobot'
