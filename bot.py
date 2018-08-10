@@ -1,10 +1,11 @@
 import discord
+import config
 from discord.ext import commands
 
 const version = '0.0.1'
-TOKEN = 'CryptoBot_Token'
+TOKEN = config.DISCORD_CONFIG['token']
 
-description = '''ninjaBot in Python'''
+description = 'Cryptobot'
 bot = commands.Bot(command_prefix='/', description=description)
 
 @bot.event
