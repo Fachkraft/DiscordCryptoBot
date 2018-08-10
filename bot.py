@@ -30,7 +30,7 @@ async def commandos():
 @bot.command()
 async def btc():
     await bot.say('Not yet implemented!')
-    await bot.say('TO DO: Bitcoin price --> https://api.cryptowat.ch/markets/kraken/btceur/price')
+    
     
 @bot.command()
 async def obi():
@@ -40,7 +40,7 @@ async def obi():
 @bot.command()
 async def getCrypto():
 	
-	await bot.say(crypto.encryptedText)
+	await bot.say(crypto.decryptedText)
 	
 
 
