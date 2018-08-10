@@ -22,6 +22,14 @@ async def version():
 
 @bot.command()
 async def commandos():
-    await bot.say('!version, !commands')
+    await bot.say('!commandos, !version, !btc, !obi')
+    
+@bot.command()
+async def btc():
+    await bot.say('Not implemented yet!')
+    
+@bot.command()
+async def obi():
+    await bot.say('Strong hands buds!')
 
 bot.run(TOKEN)
