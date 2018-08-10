@@ -5,7 +5,7 @@ from discord.ext import commands
 TOKEN = config.token
 
 description = 'Cryptobot'
-bot = commands.Bot(command_prefix='/', description=description)
+bot = commands.Bot(command_prefix='!', description=description)
 
 @bot.event
 async def on_ready():
